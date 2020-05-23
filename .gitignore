@@ -12,3 +12,7 @@ web-report/
 
 # macOS
 .DS_Store
+
+/data
+/constants/Theme.js
+/constants/hooks.js
