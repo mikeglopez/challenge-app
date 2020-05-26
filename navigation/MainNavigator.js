@@ -3,11 +3,13 @@ import { createAppContainer } from 'react-navigation';
 import { Platform } from 'react-native';
 
 import UserDashboardScreen from '../screens/user/UserDashboardScreen';
+import UserDetailScreen from '../screens/user/UserDetailScreen';
 import Colors from '../constants/Colors';
 
 const UsersNavigator = createStackNavigator(
   {
-    Dashboard: UserDashboardScreen
+    Dashboard: UserDashboardScreen,
+    UserDetail: UserDetailScreen
   },
   {
     defaultNavigationOptions: {
